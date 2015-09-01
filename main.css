@@ -6,13 +6,24 @@
   text-transform: uppercase;
 }
 
-.nav li{
+.nav li {
+  display: inline;
+}
+
+.nav ul{
     display:inline;
 }
 
 .jumbotron {
   background-image:url('http://goo.gl/04j7Nn');
   height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
 }
 
 .jumbotron h1 {
@@ -27,11 +38,6 @@
   color: #fff;
 }
 
-.jumbotron .container{
-    position: relative;
-    top:100px;
-}
-
 .learn-more {
   background-color: #f7f7f7;
 }
@@ -44,4 +50,20 @@
 
 .learn-more a {
   color: #00b0ff;
+}
+
+.neighborhood-guides{
+    background-color:#efefef;  
+    border-bottom:1px solid #dbdbdb;
+}
+
+
+.neighborhood-guides h2{
+ color:#393c3d;
+ font-size:24px;
+}
+
+.neighborhood-guides p{
+    font-size:15px;
+    margin-bottom:13px;
 }
